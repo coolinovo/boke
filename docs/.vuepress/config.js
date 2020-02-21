@@ -18,9 +18,9 @@ module.exports = {
         text: '项目',
         items: [
           {text: 'Vue', items: [{text: '电商后台管理',
-              link: 'http://101.132.236.21/vue'}]},
+              link: 'https://www.coolin.club/vue/'}]},
           {text: 'React', items: [{text: '文章后台管理',
-              link: 'http://101.132.236.21/react'}]}
+              link: 'https://www.coolin.club/react'}]}
         ]
       },
       {
@@ -39,7 +39,17 @@ module.exports = {
         text: '倒数',
         link: '/date/'
       }
-    ]
+    ],
+    activeHeaderLinks: false,
+    sidebar: {
+      '/lecture/': [
+        '',
+        'vuex',
+        'array',
+        'react'
+      ]
+    },
+    smoothScroll: true
   },
   plugins: [
     [
